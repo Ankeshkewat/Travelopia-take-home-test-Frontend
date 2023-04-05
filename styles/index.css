@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 12px;
+}
+nav>div:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 10%;
+    width: 50%;
+}
+nav a{
+    text-decoration: none;
+    font-size: 28px;
+    color: rgb(54, 54, 54);
+    font-family: sans-serif;
+}
+nav a:hover{
+    color: rgb(172, 172, 172);
+    transition: all 0.15s ease-in;
+}
