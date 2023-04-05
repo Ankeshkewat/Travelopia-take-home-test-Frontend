@@ -25,6 +25,9 @@ nav a:hover{
     color: rgb(172, 172, 172);
     transition: all 0.15s ease-in;
 }
+a,p{
+    font-family: sans-serif;
+}
 
 form{
     width: 350px;
@@ -51,5 +54,15 @@ form button{
 @media (max-width:351px){
     form{
         width: 98%;
+    }
+}
+@media (max-width:450px){
+    nav>div:last-child{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        column-gap: 10%;
+        width: 50%;
     }
 }
