@@ -16,6 +16,7 @@ nav>div:last-child{
 }
 nav a{
     text-decoration: none;
+    flex-wrap: wrap;
     font-size: 28px;
     color: rgb(54, 54, 54);
     font-family: sans-serif;
@@ -26,7 +27,7 @@ nav a:hover{
 }
 
 form{
-    width: 30%;
+    width: 350px;
     margin: auto;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     padding: 30px;
@@ -46,4 +47,9 @@ form button{
     color: white;
     border: none;
     border-radius: 5px;
+}
+@media (max-width:351px){
+    form{
+        width: 98%;
+    }
 }
