@@ -1,6 +1,6 @@
 # Travelopia-take-home-test-Frontend
 
-## Deployed on  Netlify   https://teal-elf-5ff146.netlify.app/
+## Deployed on  Netlify : https://travelopia-take-home-test.netlify.app/
 
 ## Home page
 
