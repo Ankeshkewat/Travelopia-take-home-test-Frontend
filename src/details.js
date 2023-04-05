@@ -2,12 +2,19 @@
 window.onload = () => {
     getData()
 }
-
+let loader = () => {
+    if (document.querySelector('.spinner').style.visibility == 'visible') {
+        document.querySelector('.spinner').style.visibility = 'hidden'
+    } else {
+        document.querySelector('.spinner').style.visibility = 'visible'
+    }
+}
 async function getData() {
     try {
+        loader()
         let res = await fetch('https://repulsive-pea-coat-eel.cyclic.app/api/get')
         let data = await res.json();
-        console.log(data)
+        loader()
         if (data.msg == 'successfull') {
             data.data.forEach((el) => {
                 let div = document.createElement('div');
