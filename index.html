@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,37 @@
     <title>Home page</title>
     <link rel="stylesheet" href="./styles/index.css">
 </head>
+
 <body>
     <nav>
         <div>
             <a href="index.html">Travelopia</a>
         </div>
         <div>
-            
             <a href="index.html">Form</a>
             <a href="details.html">Submissions</a>
         </div>
     </nav>
+
+
+    <form action="">
+        <h1>Form</h1>
+        <input type="text" name="" id="name" placeholder="Name">
+        <input type="email" name="" id="email" placeholder="Email">
+
+        <select name="" id="destination">
+            <option value="">Where you want to go</option>
+            <option value="India">India</option>
+            <option value="Africa">Africa</option>
+            <option value="Europe">Europe</option>
+        </select>
+
+        <input type="number" name="" id="ofOfTravellers" placeholder="No of travellers">
+        <input type="number" name="" id="budget" placeholder="Budget per person in Dollars">
+        <button>Submit</button>
+    </form>
+
 </body>
+
 </html>
+<script src="./src/index.js"></script>
